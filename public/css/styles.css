@@ -1,0 +1,94 @@
+html {
+  min-height: 100%;
+  position: relative;
+  background-color: #fff;
+  font-family: 'helvetica neue';
+}
+
+
+.tick text {
+  font-size: 14px;
+  fill: #442727;
+  font-family: 'Comic Neue';
+}
+
+.tick line {
+  stroke: lightsteelblue;
+}
+
+.label {
+
+  font-size: 14px;
+  font-family: 'Arial';
+  fill: #442727;
+}
+
+
+.title {
+  font-family: 'Arial';
+  font-size: 14px;
+  fill: #363636;
+
+}
+
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav  li a:hover {
+    color: #de7119 !important;
+}
+
+.footer-padding {
+  padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 85px;
+	background-color: #aacfcf;
+}
+
+.white-section{
+background-color: #aacfcf;
+position: relative;
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+
+
+.footer p {
+	margin-top: 25px;
+	font-size: 19px;
+  color: #black;
+}
+
+.icon{
+  color: #aacfcf;
+  margin-bottom: 1rem;
+
+}
+
+.icon:hover{
+  color:#937d14;
+}
+
+.developer{
+  text-decoration: underline;
+}
