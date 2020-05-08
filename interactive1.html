@@ -19,45 +19,52 @@
 
         <p class="navbar-brand">INTERACTIVE DESIGN</p>
       </div>
-        <ul class="nav navbar-nav navbar-right">
-          <li id="covid"><a href="/">COVID-19</a></li>
-          <li id="interactive1"><a href="/interactive1">INTERACTIVE1</a></li>
-          <li id="interactive2"><a href="/interactive2">INTERACTIVE2</a></li>
-          <li id="static"><a href="/static">STATIC</a></li>
-          <li id="writeup"><a href="/writeup">WRITE-UP</a></li>
-        </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li id="covid"><a href="/">COVID-19</a></li>
+        <li id="interactive1"><a href="/interactive1">INTERACTIVE1</a></li>
+        <li id="interactive2"><a href="/interactive2">INTERACTIVE2</a></li>
+        <li id="static"><a href="/static">STATIC</a></li>
+        <li id="writeup"><a href="/writeup">WRITE-UP</a></li>
+      </ul>
     </div>
   </nav>
 
-  <body>
-    <div class="container">
-      <h2>How many people get tested in each state?</h2>
-      <p>data last updated: April 13, 2020. It may not reflect latest data.</p>
-      <svg width="1240" height="800"></svg>
-      <script src="index.js"></script>
-      <p>What are tested/positive cases per 100k capita in CA?</p>
-      <p>Tested: 481.7</p>
-      <p>Positive: 55.2</p>
-      <p>What does this mean?</p>
-      <p>approximately 482 residents get tested per 100,000 residents</p>
-      <p>approximately 4.82 residents get tested per 1,000 residents</p>
-      <p>approximately 55 get positive results, which is about 11.5% of residents who get tested.</p>
-      <p>What does this tell us?</p>
-      <p>despite being one of top states that have largest confirmed cases, </p>
-      <p>fairly small percentage of tests that are positive in CA</p>
+
+
+<body>
+  <div class="container">
+    <h2>Covid Choropleth</h2>
+
+    <script type="module">
+
+
+
+// Load the Observable runtime and inspector.
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+// Your notebook, compiled as an ES module.
+import notebook from "https://api.observablehq.com/@siminliang/covid-choropleth.js?v=3";
+// Load the notebook, observing its cells with a default Inspector
+// that simply renders the value of each cell into the provided DOM node.
+new Runtime().module(notebook, Inspector.into(document.body));
+
+</script>
+
+  </div>
+
   </div>
 
   <div class="footer-padding"></div>
-    <div class="footer">
-      <p> <span class="developer"> Jamie Kim</span>.
+  <div class="footer">
+    <p> <span class="developer"> Jamie Kim</span>.
       <span class="developer"> Tina Liang</span>. </p>
-      <a class="footer-link" href="https://observablehq.com/@jamie/tested-vs-positive">ObservableHQ</a>
-      <a class="footer-link" href="https://observablehq.com/@siminliang/covid-choropleth">ObservableHQ</a>
-      <a class="footer-link" href="https://github.com/noeyhoos/Interactive196v">Github</a>
-      <a class="footer-link" href="https://covidtracking.com/api">Data API</a>
-      <a class="footer-link" href="https://www.census.gov/search-results.html?searchType=web&cssp=SERP&q=population%20by%20state">US Census Bureau</a>
+    <a class="footer-link" href="https://observablehq.com/@jamie/tested-vs-positive">ObservableHQ</a>
+    <a class="footer-link" href="https://observablehq.com/@siminliang/covid-choropleth">ObservableHQ</a>
+    <a class="footer-link" href="https://github.com/noeyhoos/Interactive196v">Github</a>
+    <a class="footer-link" href="https://covidtracking.com/api">Data API</a>
+    <a class="footer-link" href="https://www.census.gov/search-results.html?searchType=web&cssp=SERP&q=population%20by%20state">US Census Bureau</a>
 
-    </div>
+  </div>
 
-  </body>
-  </html>
+</body>
+
+</html>
