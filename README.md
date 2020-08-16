@@ -10,7 +10,7 @@ our website for 196v interactive visualization project
 3. Wrangle the given datasets in order to create dynamic data visual using d3.js library
 
 # Skills/Modules Used   
-HTML, CSS, Bootstrap, D3.js, ejs, express.js 
+HTML, CSS, Bootstrap, D3.js, express.js 
 
 # Tools 
 Host: Heroku 
