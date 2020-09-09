@@ -1,4 +1,4 @@
-# InteractiveDeisgn
+# InteractiveVisualization
 Our website for 196v interactive visualization project
 
 # Data Visualization  
