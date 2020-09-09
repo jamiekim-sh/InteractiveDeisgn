@@ -1,5 +1,5 @@
-# interactivefinal
-our website for 196v interactive visualization project
+# Interactivefinal
+Our website for 196v interactive visualization project
 
 # Data Visualization  
 2020 Spring Data Visualization class project 
